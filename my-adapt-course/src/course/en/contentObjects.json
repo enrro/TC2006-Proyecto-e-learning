@@ -1,0 +1,40 @@
+[
+	{
+		"_id": "co-10",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Cultura",
+		"displayTitle": "Descubre tu acervo cultural",
+		"pageBody": "México, cuyo nombre oficial es Estados Unidos Mexicanos, es un país de América, ubicado en la parte meridional de América del Norte. Su capital es la Ciudad de México. Políticamente es una república democrática, representativa y federal compuesta por 32 entidades federativas.<br><br>Gozamos de una gran riqueza natural y de una gran riqueza cultural. De entre más de 190 países en el mundo, México se encuentra entre los cinco primeros lugares en cuanto a su cantidad de plantas, animales y ecosistemas.",
+		"body": "Pruebate con este quizz hacerca de México.",
+		"_graphic": {
+			"src": "course/en/images/Getting-to-Mexico.jpg",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"duration": "5 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "co-15",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "assessment",
+		"title": "Peliculas",
+		"displayTitle": "Peliculas!",
+		"pageBody": "Las peliculas son una forma de transformarnos en alguien mas, de conocer de mundos diversos y de poder apreciar la vida desde una tercera persona, por medio de este medio tan brillante podemos lograr empatia con personajes que jamas nos pudimos haber imaginado y el recuento de cada una de esas personas que conocimos vive por un breve instante dentro de la historia de nuestra mente. <br><br> Es por eso que esta seccion esta dedicada a aquellas personas que sienten con el resplandor del proyector",
+		"body": "Demuestra tu conocimiento de pelicula con esta rapida trivia.",
+		"_graphic": {
+			"src": "course/en/images/Movie-Theaters.jpg",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"duration": "5 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+    }
+]
