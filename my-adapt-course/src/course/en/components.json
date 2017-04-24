@@ -321,36 +321,29 @@
 		"_canShowModelAnswer": false,
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
-		"_selectable": 4,
-		"title": "To scroll or not to scroll?",
-		"displayTitle": "To scroll or not to scroll?",
-		"body": "Can you identify a few of the benefits that a vertical scrolling approach offers over the traditional back and next approach?",
+		"_selectable": 1,
+		"title": "murcielagos",
+		"displayTitle": "Comiendo Pescados",
+		"body": "¿En cual de estos paises existen murcielagos pescadores?",
 		"instruction": "Choose one or more options and select Submit.",
 		"_items": [
 			{
-				"text": "Scrolling is common place on the web and therefore familiar to the learner",
+				"text": "Australia",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "México",
 				"_shouldBeSelected": true
 			},
 			{
-				"text": "Scrolling reduces the need for unnecessary navigation as pages can be as long (or as short) as they need to be",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Scrolling helps ensure designs are more mobile friendly",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Scrolling means you no longer need to first gain learners attention",
+				"text": "Nueva Zelanda",
 				"_shouldBeSelected": false
 			}
 		],
 		"_feedback": {
-			"correct": "correct",
-			"_partlyCorrect": {
-				"final": "final"
-			},
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
 			"_incorrect": {
-				"final": "final"
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; Los murcielagos pescadores se encuentran en los territorios mexicanos"
 			}
 		},
 		"_pageLevelProgress": {
@@ -361,25 +354,6 @@
 		"_id": "c-95",
 		"_parentId": "b-65",
 		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-95",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-100",
-		"_parentId": "b-75",
-		"_type": "component",
 		"_component": "mcq",
 		"_classes": "",
 		"_layout": "left",
@@ -388,40 +362,29 @@
 		"_canShowModelAnswer": false,
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
-		"_selectable": 5,
-		"title": "Do you know your plugins?",
-		"displayTitle": "Do you know your plugins?",
-		"body": "Which of the following are types of Adapt plugins?",
+		"_selectable": 1,
+		"title": "oms",
+		"displayTitle": "¿Qué ves?",
+		"body": "¿Segun la OMS a partir de que rango una persona es considerada legalmente ciega?",
 		"instruction": "Choose one or more options and select Submit.",
 		"_items": [
 			{
-				"text": "Component",
+				"text": "Menor de 20/400",
 				"_shouldBeSelected": true
 			},
 			{
-				"text": "Extension",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Schema",
+				"text": "Menor de 10/400",
 				"_shouldBeSelected": false
 			},
 			{
-				"text": "Block",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "App Wrapper",
+				"text": "Mayor de 40/400",
 				"_shouldBeSelected": false
 			}
 		],
 		"_feedback": {
-			"correct": "correct",
-			"_partlyCorrect": {
-				"final": "final"
-			},
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
 			"_incorrect": {
-				"final": "final"
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; Se considera a una persona legalmente ciega a partir de 20/400"
 			}
 		},
 		"_pageLevelProgress": {
@@ -432,24 +395,46 @@
 		"_id": "c-105",
 		"_parentId": "b-75",
 		"_type": "component",
-		"_component": "graphic",
+		"_component": "mcq",
 		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-105",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": false,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Lupus",
+		"displayTitle": "Sin lobos solitarios",
+		"body": "¿Como se llama un grupo de lobos?",
+		"instruction": "Choose one or more options and select Submit.",
+		"_items": [
+			{
+				"text": "Manada",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Camada",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Banco",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
+			"_incorrect": {
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; Se les llama manada a los grupos de Lobos"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-110",
-		"_parentId": "b-80",
+		"_parentId": "b-75",
 		"_type": "component",
 		"_component": "mcq",
 		"_classes": "",
@@ -460,39 +445,28 @@
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
 		"_selectable": 1,
-		"title": "It’s as simple as A, B, C",
-		"displayTitle": "It’s as simple as A, B, C",
-		"body": "Can you identify the missing word in the following sequence?<br>Article / ..... / Component.",
-		"instruction": "Choose an option and select Submit.",
+		"title": "oms",
+		"displayTitle": "A colors",
+		"body": "¿En que año se inventó la televisión a color?",
+		"instruction": "Choose one or more options and select Submit.",
 		"_items": [
 			{
-				"text": "Block",
+				"text": "1950",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "1940",
 				"_shouldBeSelected": true
 			},
 			{
-				"text": "Bridge",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Brace",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Base",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Bearing",
+				"text": "1960",
 				"_shouldBeSelected": false
 			}
 		],
 		"_feedback": {
-			"correct": "correct",
-			"_partlyCorrect": {
-				"final": "final"
-			},
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
 			"_incorrect": {
-				"final": "final"
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; Se instaló en 1968"
 			}
 		},
 		"_pageLevelProgress": {
@@ -503,24 +477,46 @@
 		"_id": "c-115",
 		"_parentId": "b-80",
 		"_type": "component",
-		"_component": "graphic",
+		"_component": "mcq",
 		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-115",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": false,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "stoplight",
+		"displayTitle": "stoplight",
+		"body": "¿En que año se instalo el primer semaforo?",
+		"instruction": "Choose one or more options and select Submit.",
+		"_items": [
+			{
+				"text": "1950",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "1940",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "1968",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
+			"_incorrect": {
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; Se inventó en 1940"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-120",
-		"_parentId": "b-85",
+		"_parentId": "b-80",
 		"_type": "component",
 		"_component": "mcq",
 		"_classes": "",
@@ -530,36 +526,29 @@
 		"_canShowModelAnswer": false,
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
-		"_selectable": 4,
-		"title": "Content objects",
-		"displayTitle": "Content objects",
-		"body": "What would you be referring to when describing a content object within Adapt?",
+		"_selectable": 1,
+		"title": "Colors",
+		"displayTitle": "Thats Racist",
+		"body": "¿Como se llama al color mas negro del mundo?",
 		"instruction": "Choose one or more options and select Submit.",
 		"_items": [
 			{
-				"text": "Page",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Menu",
-				"_shouldBeSelected": true
-			},
-			{
-				"text": "Component",
+				"text": "Darks",
 				"_shouldBeSelected": false
 			},
 			{
-				"text": "Course configuration options",
+				"text": "Obscurio",
 				"_shouldBeSelected": false
+			},
+			{
+				"text": "Vantablack",
+				"_shouldBeSelected": true
 			}
 		],
 		"_feedback": {
-			"correct": "correct",
-			"_partlyCorrect": {
-				"final": "final"
-			},
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
 			"_incorrect": {
-				"final": "final"
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; El color más oscuro conosido es ventablack"
 			}
 		},
 		"_pageLevelProgress": {
@@ -570,23 +559,85 @@
 		"_id": "c-125",
 		"_parentId": "b-85",
 		"_type": "component",
-		"_component": "graphic",
+		"_component": "mcq",
 		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-95",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": false,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Lady Liberty",
+		"displayTitle": "Freedom for all",
+		"body": "¿Que país regalo a EUA la esatua de la libertad?",
+		"instruction": "Choose one or more options and select Submit.",
+		"_items": [
+			{
+				"text": "España",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Alemania",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Francia",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
+			"_incorrect": {
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; Francia le regaló a los americanos su estatua"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
 		}
 	},
 	{
 		"_id": "c-130",
+		"_parentId": "b-85",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": false,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "War, who?",
+		"displayTitle": "Irish ey",
+		"body": "¿Quien es el dios de la guerra en la mitología celta (irlandesa)?",
+		"instruction": "Choose one or more options and select Submit.",
+		"_items": [
+			{
+				"text": "Morrigan",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Balar",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Dagda",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
+			"_incorrect": {
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; Morrigan era la diosa de la guerra"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},{
+		"_id": "c-135",
 		"_parentId": "b-90",
 		"_type": "component",
 		"_component": "mcq",
@@ -598,35 +649,28 @@
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
 		"_selectable": 1,
-		"title": "Adding titles to icons",
-		"displayTitle": "Adding titles to icons",
-		"body": "Version 2.0 of the framework makes it possible to add titles to the icons shown on the navigation bar. Do you know what JSON file you would need to edit to add a title to an icon?",
-		"instruction": "Choose an option and select Submit.",
+		"title": "sugoi",
+		"displayTitle": "nani?",
+		"body": "¿Como se le llama a los programas animados japoneses?",
+		"instruction": "Choose one or more options and select Submit.",
 		"_items": [
 			{
-				"text": "course.json",
+				"text": "Caritcaturas",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Dibujitos",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Anime",
 				"_shouldBeSelected": true
-			},
-			{
-				"text": "config.json",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "contentObjects.json",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "components.json",
-				"_shouldBeSelected": false
 			}
 		],
 		"_feedback": {
-			"correct": "correct",
-			"_partlyCorrect": {
-				"final": "final"
-			},
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
 			"_incorrect": {
-				"final": "final"
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; A as animaciones japonesas se les conoce com anime"
 			}
 		},
 		"_pageLevelProgress": {
@@ -634,27 +678,8 @@
 		}
 	},
 	{
-		"_id": "c-135",
-		"_parentId": "b-90",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"_isOptional": true,
-		"title": "c-95",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
 		"_id": "c-140",
-		"_parentId": "b-95",
+		"_parentId": "b-90",
 		"_type": "component",
 		"_component": "mcq",
 		"_classes": "",
@@ -664,36 +689,29 @@
 		"_canShowModelAnswer": false,
 		"_shouldDisplayAttempts": false,
 		"_isRandom": true,
-		"_selectable": 4,
-		"title": "Control the scroll",
-		"displayTitle": "Control the scroll",
-		"body": "The <strong>Trickle</strong> extension makes it possible to control how the learner scrolls down the page, but what elements of a page can it be applied to?",
-		"instruction": "Choose an option and select Submit.",
+		"_selectable": 1,
+		"title": "country",
+		"displayTitle": "Paises pequeños",
+		"body": "¿Cual es el país con menor población en el mundo?",
+		"instruction": "Choose one or more options and select Submit.",
 		"_items": [
 			{
-				"text": "Article",
+				"text": "Vaticano",
 				"_shouldBeSelected": true
 			},
 			{
-				"text": "Block",
+				"text": "luxemburgo",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Madagascar",
 				"_shouldBeSelected": true
-			},
-			{
-				"text": "Component",
-				"_shouldBeSelected": false
-			},
-			{
-				"text": "Other extensions",
-				"_shouldBeSelected": false
 			}
 		],
 		"_feedback": {
-			"correct": "correct",
-			"_partlyCorrect": {
-				"final": "final"
-			},
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
 			"_incorrect": {
-				"final": "final"
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; El país más pequeño del mundo es el Vaticano"
 			}
 		},
 		"_pageLevelProgress": {
@@ -704,6 +722,48 @@
 		"_id": "c-145",
 		"_parentId": "b-95",
 		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "left",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": false,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "puzzle",
+		"displayTitle": "100000000 piezas",
+		"body": "¿Quien creo los rompecabezas?",
+		"instruction": "Choose one or more options and select Submit.",
+		"_items": [
+			{
+				"text": "John Spilsbury",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Martin Fernando",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Mark Dan",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "¡Felicitaciones!.<br><br>Esa respuesta es correcta.",
+			"_incorrect": {
+				"final": "¡Lo lamento!.<br><br>Esa respuesta es incorrecta; John Spilsbury inventó los rompecabezas"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+
+	{
+		"_id": "c-146",
+		"_parentId": "b-95",
+		"_type": "component",
 		"_component": "graphic",
 		"_classes": "",
 		"_layout": "right",
@@ -713,8 +773,8 @@
 		"body": "",
 		"instruction": "",
 		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
+			"large": "course/en/images/cooking.jpg",
+			"small": "course/en/images/cooking.jpg",
 			"alt": "Placeholder graphic.",
 			"attribution": ""
 		}
@@ -728,7 +788,7 @@
 		"_layout": "full",
 		"title": "Scoring bands",
 		"displayTitle": "",
-		"body": "The new Assessment Results component allows you to specify the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 75% or above and provided four scoring bands, each of which has some accompanying feedback. The four scoring bands were:<br><br><ul><li>0-49% (fail)</li><li>50-74% (fail)</li><li>75-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out.",
+		"body": "A continuacion los resultados.<br><br>Las calificaciones son las siguientes:<br><br><ul><li>0-49% (buu)</li><li>50-74% (masomenos)</li><li>75-99% (pasaste)</li><li>100% (puntuacion maxima)</li></ul><br>Como crees que te haya ido? averiguemoslo.",
 		"_canReset": true,
 		"_isResetOnRevisit": "hard",
 		"_pageLevelProgress": {
@@ -744,8 +804,8 @@
 		"_layout": "full",
 		"_isVisibleBeforeCompletion": false,
 		"_assessmentId": "a-15",
-		"title": "Results",
-		"displayTitle": "Results",
+		"title": "Resultados",
+		"displayTitle": "Resultados",
 		"body": "",
 		"instruction": "",
 		"_retry": {
@@ -758,22 +818,22 @@
 		"_bands": [
 			{
 				"_score": 0,
-				"feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You didn’t do so well in the Adapt assessment demo, but don’t worry. There’s lots of information about the Adapt basics on our site. We’d also suggest you pay a visit to the forums and ask our ever helpful community to answer any questions that you might have.",
+				"feedback": "No pasaste :(, conseguiste un score de {{scoreAsPercent}}%.<br><br>esfuerzate mas a la siguiente y lo lograras",
 				"_allowRetry": true
 			},
 			{
 				"_score": 50,
-				"feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You already know some of the Adapt basics but please explore our site for more information. Also pay a visit to the forums and ask our ever helpful community to answer any questions that you might have.",
+				"feedback": "Te encuentras serca de pasar {{scoreAsPercent}}%.<br><br>Conoces algunos de los conceptos basicos y con un poco mas de dedicacion podras alcanzar tu meta.",
 				"_allowRetry": true
 			},
 			{
 				"_score": 75,
-				"feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already pretty knowledgeable about Adapt so, if you haven’t already, please consider sharing your expertise on the Adapt community forums.",
+				"feedback": "Pasaste nuestro examen con  {{scoreAsPercent}}%.<br><br>parece que sabes mucho. Juega una vez mas para ver si puedes alcanzar la puntuacion maxima.",
 				"_allowRetry": true
 			},
 			{
 				"_score": 100,
-				"feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already a black belt in Adapt! If you haven’t already, please consider sharing your expertise on the Adapt community forums.",
+				"feedback": "Al canzaste el puntaje mas alto con  {{scoreAsPercent}}%.<br><br> Eres el mejor.",
 				"_allowRetry": false
 			}
 		],

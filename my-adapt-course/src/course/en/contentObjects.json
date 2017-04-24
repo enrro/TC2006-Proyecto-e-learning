@@ -23,12 +23,12 @@
 		"_parentId": "course",
 		"_type": "page",
 		"_classes": "assessment",
-		"title": "Peliculas",
-		"displayTitle": "Peliculas!",
-		"pageBody": "Las peliculas son una forma de transformarnos en alguien mas, de conocer de mundos diversos y de poder apreciar la vida desde una tercera persona, por medio de este medio tan brillante podemos lograr empatia con personajes que jamas nos pudimos haber imaginado y el recuento de cada una de esas personas que conocimos vive por un breve instante dentro de la historia de nuestra mente. <br><br> Es por eso que esta seccion esta dedicada a aquellas personas que sienten con el resplandor del proyector",
-		"body": "Demuestra tu conocimiento de pelicula con esta rapida trivia.",
+		"title": "Trivia",
+		"displayTitle": "Trivia!",
+		"pageBody": "Demuestra tus conocimientos generales en esta seccion de trivial. <br><br>",
+		"body": "Demuestra tu conocimiento general con esta rapida trivia.",
 		"_graphic": {
-			"src": "course/en/images/Movie-Theaters.jpg",
+			"src": "course/en/images/trivia-questions.png",
 			"alt": "Placeholder graphic."
 		},
 		"linkText": "View",
